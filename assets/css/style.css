@@ -531,3 +531,56 @@ a {
     border-color: #2E80CE;
     cursor: pointer;
 }
+
+/* Install */
+.install {
+    margin-top: 180px;
+}
+
+.install__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 70px;
+    border-radius: 4px;
+    background-color: #2E80CE;
+}
+
+.install__content {
+   max-width: 586px;
+}
+
+.install__img {
+    display: block;
+    height: 522px;
+    width: 284px;
+    object-fit: cover;
+    margin-top: -95px;
+}
+
+.install__heading {
+    /*margin-top: 76px;*/
+    max-width: 489px;
+    color: #FFF;
+}
+
+.install__desc {
+    color: #FFF;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.66; /* 166.667% */
+    margin-top: 18px;
+    max-width: 586px;
+}
+
+.install-row {
+    display: flex;
+    justify-content: left;
+    column-gap: 28px;
+    margin-top: 38px;
+}
+
+.install__btn-img {
+    width: 135px;
+    height: 40px;
+}
